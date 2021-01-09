@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Bold.ttf">
+            <string>Poppins-Bold</string>
+        </array>
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="OrdesCell" rowHeight="125" id="KGk-i7-Jjw" customClass="OrdesCell" customModule="Takeaway" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="323" height="125"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="323" height="125"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o8K-k8-K4W">
+                        <rect key="frame" x="8" y="8" width="307" height="109"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hardee,s - san sefon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bHZ-1o-4zx">
+                                <rect key="frame" x="15" y="43.5" width="200" height="22.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="YWF-Oj-bS5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17.5" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9p4-y4-t6b">
+                                <rect key="frame" x="208" y="44.5" width="70" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="R4f-fO-mke"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EGP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vNp-dR-zWA">
+                                <rect key="frame" x="280" y="47.5" width="19" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14" id="aKd-4t-lfb"/>
+                                    <constraint firstAttribute="width" constant="19" id="yLu-Nz-nXa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="vNp-dR-zWA" firstAttribute="centerY" secondItem="o8K-k8-K4W" secondAttribute="centerY" id="5bg-Hh-RRO"/>
+                            <constraint firstItem="vNp-dR-zWA" firstAttribute="leading" secondItem="9p4-y4-t6b" secondAttribute="trailing" constant="2" id="NIQ-Rq-ssn"/>
+                            <constraint firstItem="bHZ-1o-4zx" firstAttribute="centerY" secondItem="o8K-k8-K4W" secondAttribute="centerY" id="SDu-pl-rZd"/>
+                            <constraint firstItem="bHZ-1o-4zx" firstAttribute="leading" secondItem="o8K-k8-K4W" secondAttribute="leading" constant="15" id="fX9-oV-VvC"/>
+                            <constraint firstAttribute="trailing" secondItem="vNp-dR-zWA" secondAttribute="trailing" constant="8" id="oOk-fd-toL"/>
+                            <constraint firstItem="vNp-dR-zWA" firstAttribute="centerY" secondItem="9p4-y4-t6b" secondAttribute="centerY" id="sql-Jm-PNU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="o8K-k8-K4W" secondAttribute="trailing" constant="8" id="0PB-qg-p2t"/>
+                    <constraint firstItem="o8K-k8-K4W" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="31K-O8-nG8"/>
+                    <constraint firstItem="o8K-k8-K4W" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="fkg-AC-qGM"/>
+                    <constraint firstAttribute="bottom" secondItem="o8K-k8-K4W" secondAttribute="bottom" constant="8" id="zTR-hd-MJ1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="orderPrice_lb" destination="9p4-y4-t6b" id="zsu-tt-ghJ"/>
+                <outlet property="orderTitle" destination="bHZ-1o-4zx" id="qvm-hW-9ne"/>
+                <outlet property="viewX" destination="o8K-k8-K4W" id="AhR-fJ-8xG"/>
+            </connections>
+            <point key="canvasLocation" x="129.71014492753625" y="143.63839285714286"/>
+        </tableViewCell>
+    </objects>
+</document>

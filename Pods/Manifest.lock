@@ -1,0 +1,58 @@
+PODS:
+  - Alamofire (4.7.3)
+  - BEMCheckBox (1.4.1)
+  - Cosmos (22.1.0)
+  - FloatingPanel (2.1.0)
+  - IQKeyboardManager (6.5.6)
+  - MarqueeLabel (4.0.5)
+  - MOLH (1.4.1)
+  - OTPFieldView (1.0.1)
+  - SDWebImage (5.9.2):
+    - SDWebImage/Core (= 5.9.2)
+  - SDWebImage/Core (5.9.2)
+  - SVProgressHUD (2.2.5)
+  - "UITextView+Placeholder (1.4.0)"
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7.3)
+  - BEMCheckBox
+  - Cosmos (~> 22.1)
+  - FloatingPanel
+  - IQKeyboardManager
+  - MarqueeLabel
+  - MOLH
+  - OTPFieldView
+  - SDWebImage
+  - SVProgressHUD
+  - "UITextView+Placeholder"
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BEMCheckBox
+    - Cosmos
+    - FloatingPanel
+    - IQKeyboardManager
+    - MarqueeLabel
+    - MOLH
+    - OTPFieldView
+    - SDWebImage
+    - SVProgressHUD
+    - "UITextView+Placeholder"
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
+  Cosmos: 2795b36ad4bbea1af3050d6d65576ed63875f86a
+  FloatingPanel: 1af47b69e26df98b8728307254a9a0f4eb3cd645
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  MarqueeLabel: 00cc0bcd087111dca575878b3531af980559707d
+  MOLH: 9ea6c0390f5963b2df9827ae64035fbc8598b092
+  OTPFieldView: 700a752fe62c41d1c4914c78aa500fb30d97c255
+  SDWebImage: 0b42b8719ab0c5257177d5894306e8a336b21cbb
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
+
+PODFILE CHECKSUM: 0eb6ebeb905e58ee207947ef06bfb1571ace15dd
+
+COCOAPODS: 1.8.4

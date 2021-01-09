@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Bold.ttf">
+            <string>Poppins-Bold</string>
+        </array>
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MealsCell" rowHeight="114" id="KGk-i7-Jjw" customClass="MealsCell" customModule="Takeaway" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="358" height="114"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="358" height="114"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mxr-rJ-IJu">
+                        <rect key="frame" x="0.0" y="0.0" width="358" height="114"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="burger" translatesAutoresizingMaskIntoConstraints="NO" id="isr-gK-JtJ">
+                                <rect key="frame" x="20" y="27" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="DE8-wP-R87"/>
+                                    <constraint firstAttribute="height" constant="60" id="LKf-MA-Po3"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hardee,s - san sefon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pBb-IO-6pE">
+                                <rect key="frame" x="94" y="27" width="147" height="20"/>
+                                <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dKL-kF-sqW">
+                                <rect key="frame" x="94" y="46" width="147" height="53"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="10"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hvk-Lb-bqL">
+                                <rect key="frame" x="256" y="19.5" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="Br1-Xi-LhI"/>
+                                    <constraint firstAttribute="height" constant="35" id="H7B-sk-6Gj"/>
+                                </constraints>
+                                <state key="normal" image="delete"/>
+                                <connections>
+                                    <action selector="delete_btn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="AWe-1Z-af4"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DdW-xy-FME">
+                                <rect key="frame" x="305" y="19.5" width="35" height="35"/>
+                                <color key="backgroundColor" red="0.1764705882352941" green="0.41176470588235292" blue="0.83921568627450982" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="XnP-XZ-XeL"/>
+                                    <constraint firstAttribute="width" constant="35" id="v42-fR-b9s"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQR-ZK-uEC">
+                                <rect key="frame" x="305" y="19.5" width="35" height="35"/>
+                                <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EGP  150" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pzx-82-uPS">
+                                <rect key="frame" x="283" y="78" width="57" height="20"/>
+                                <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="14"/>
+                                <color key="textColor" red="0.090196078431372548" green="0.22745098039215686" blue="0.47843137254901957" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hvk-Lb-bqL" firstAttribute="leading" secondItem="pBb-IO-6pE" secondAttribute="trailing" constant="15" id="0ln-Ig-q1N"/>
+                            <constraint firstItem="isr-gK-JtJ" firstAttribute="centerY" secondItem="mxr-rJ-IJu" secondAttribute="centerY" id="81A-cL-Iym"/>
+                            <constraint firstAttribute="bottom" secondItem="dKL-kF-sqW" secondAttribute="bottom" constant="15" id="IYc-DV-ohj"/>
+                            <constraint firstItem="QQR-ZK-uEC" firstAttribute="bottom" secondItem="DdW-xy-FME" secondAttribute="bottom" id="K1h-d7-XKB"/>
+                            <constraint firstItem="QQR-ZK-uEC" firstAttribute="top" secondItem="DdW-xy-FME" secondAttribute="top" id="U04-4A-IeX"/>
+                            <constraint firstItem="QQR-ZK-uEC" firstAttribute="leading" secondItem="DdW-xy-FME" secondAttribute="leading" id="Y6i-iE-LIS"/>
+                            <constraint firstItem="dKL-kF-sqW" firstAttribute="top" secondItem="pBb-IO-6pE" secondAttribute="bottom" constant="-1" id="Zho-d2-AzM"/>
+                            <constraint firstItem="Pzx-82-uPS" firstAttribute="trailing" secondItem="QQR-ZK-uEC" secondAttribute="trailing" id="aaq-Z4-ziY"/>
+                            <constraint firstItem="pBb-IO-6pE" firstAttribute="leading" secondItem="isr-gK-JtJ" secondAttribute="trailing" constant="14" id="b7f-kv-Xxq"/>
+                            <constraint firstItem="DdW-xy-FME" firstAttribute="leading" secondItem="hvk-Lb-bqL" secondAttribute="trailing" constant="14" id="bby-HE-Jtj"/>
+                            <constraint firstItem="pBb-IO-6pE" firstAttribute="top" secondItem="isr-gK-JtJ" secondAttribute="top" id="c19-RO-eWf"/>
+                            <constraint firstItem="isr-gK-JtJ" firstAttribute="leading" secondItem="mxr-rJ-IJu" secondAttribute="leading" constant="20" id="kAS-ZH-HJZ"/>
+                            <constraint firstItem="hvk-Lb-bqL" firstAttribute="centerY" secondItem="pBb-IO-6pE" secondAttribute="centerY" id="mtu-rt-DeR"/>
+                            <constraint firstItem="Pzx-82-uPS" firstAttribute="top" secondItem="QQR-ZK-uEC" secondAttribute="bottom" constant="23.5" id="oYi-bO-AcG"/>
+                            <constraint firstItem="dKL-kF-sqW" firstAttribute="trailing" secondItem="pBb-IO-6pE" secondAttribute="trailing" id="oaz-Kb-RIm"/>
+                            <constraint firstItem="DdW-xy-FME" firstAttribute="centerY" secondItem="hvk-Lb-bqL" secondAttribute="centerY" id="sKe-3u-C3n"/>
+                            <constraint firstItem="dKL-kF-sqW" firstAttribute="leading" secondItem="pBb-IO-6pE" secondAttribute="leading" id="t8w-FR-wJR"/>
+                            <constraint firstItem="QQR-ZK-uEC" firstAttribute="trailing" secondItem="DdW-xy-FME" secondAttribute="trailing" id="x83-1Y-50G"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="mxr-rJ-IJu" secondAttribute="trailing" id="10E-fV-h53"/>
+                    <constraint firstAttribute="bottom" secondItem="mxr-rJ-IJu" secondAttribute="bottom" id="bZV-HG-RXo"/>
+                    <constraint firstItem="mxr-rJ-IJu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="o03-l3-4XY"/>
+                    <constraint firstItem="mxr-rJ-IJu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="yod-Z2-OJq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="counterView" destination="DdW-xy-FME" id="HOg-Pe-lkO"/>
+                <outlet property="counter_lbl" destination="QQR-ZK-uEC" id="bgF-h4-uwR"/>
+                <outlet property="delete_btn" destination="hvk-Lb-bqL" id="jsk-cP-twB"/>
+                <outlet property="mealDescripation_lbl" destination="dKL-kF-sqW" id="5PQ-uh-FfH"/>
+                <outlet property="mealName_lbl" destination="pBb-IO-6pE" id="NJx-ql-j5Q"/>
+                <outlet property="meal_iv" destination="isr-gK-JtJ" id="rXg-jA-5cx"/>
+                <outlet property="price_lbl" destination="Pzx-82-uPS" id="N81-cX-5Mg"/>
+            </connections>
+            <point key="canvasLocation" x="104.34782608695653" y="145.3125"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="burger" width="84.5" height="75"/>
+        <image name="delete" width="35" height="35"/>
+    </resources>
+</document>
